@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/person">
+        <file>workerPNG.png</file>
+        <file>gate.png</file>
+    </qresource>
+    <qresource prefix="/new/objects">
+        <file>water.png</file>
+        <file>_11.png</file>
+        <file>_12.png</file>
+        <file>_13.png</file>
+        <file>_14.png</file>
+        <file>_15.png</file>
+        <file>_16.png</file>
+    </qresource>
+</RCC>
