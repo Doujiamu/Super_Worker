@@ -6,3 +6,7 @@ End
 ## Report bugs and connections
   You can report bugs or give us advice about the game.
   You can report bugs derectly in [this][https://github.com/Doujiamu/Super_Worker/issues/1]
+  Nothing is perfect and no one is perfect. There must be many problems or incorrect space of the programme. You are welcome to report the problems you have found to me. You can report errors to me in the following three ways:
+  -Reporting bugs directly in tne issue section 
+  -
+  -
