@@ -6,6 +6,7 @@ End
 ## Report bugs and connections
 
   Nothing is perfect and no one is perfect. There must be many problems or incorrect space of the programme. You are welcome to report the problems you have found to me. You can report errors to me in the following three ways:
-  -Reporting bugs directly in the issue section [link](https://github.com/Doujiamu/Super_Worker/issues/)
-  -qq email: 3214723141@qq.com
-  -outlook email: doujiamu@outlook.com
+
+  - Reporting bugs directly in the issue section [link](https://github.com/Doujiamu/Super_Worker/issues/)
+  - qq email: 3214723141@qq.com
+  - outlook email: doujiamu@outlook.com
