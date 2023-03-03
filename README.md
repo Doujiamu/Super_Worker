@@ -1,6 +1,4 @@
 # Super_Worker
 ## 前言
-  
-  此项目启动于2023-2-16，灵感来源于steam上一个名为《大多数》的游戏，当然除游戏模式有所借鉴外内容都是原创的
-  最近忙于中考，半年内几乎不会再更新代码（反正也没人看😅），不过自己闲着的时候会构思构思
-  实在不知道说些什么了（好像本来就没说什么），前言完
+
+   This project was launched on 2023-2-14, it was inspired by a game named "大多数" on Steam. Of course, the content is thought by myself except for the game model. Recently, I was busy with the junior middle school graduated exam, and I will hardly update the code within half a year (no one will watch it anyway 😅）， But when I am free, I will conceive ideas. I really don't know what to say (as if I didn't say anything at all)
