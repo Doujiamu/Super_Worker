@@ -30,6 +30,7 @@ public:
 
     int matchInteraction(); //判断交互类型
     void setBlockLabels(); //设置区块内标签
+    void hideBlockLabels(int block); //隐藏区块内标签
 
 
     ~MainWindow();

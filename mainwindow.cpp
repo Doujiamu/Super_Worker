@@ -32,17 +32,17 @@ void MainWindow::setMap()
 {
     //block 1 (finished)
     map[0][0][0]=5;map[0][1][0]=5;map[0][2][0]=5;map[0][3][0]=5;map[0][4][0]=5;map[0][5][0]=5;map[0][6][0]=5;map[0][7][0]=5;map[0][8][0]=0;map[0][9][0]=0;map[0][10][0]=0;map[0][11][0]=0;map[0][12][0]=0;map[0][13][0]=0;map[0][14][0]=0;map[0][15][0]=15;map[0][16][0]=15;map[0][17][0]=15;map[0][18][0]=15;map[0][19][0]=15;
-    map[0][0][1]=5;map[0][1][1]=5;map[0][2][1]=5;map[0][3][1]=5;map[0][4][1]=5;map[0][5][1]=5;map[0][6][1]=5;map[0][7][1]=5;map[0][8][1]=11;map[0][9][1]=0;map[0][10][1]=0;map[0][11][1]=0;map[0][12][1]=0;map[0][13][1]=0;map[0][14][1]=0;map[0][15][1]=15;map[0][16][1]=15;map[0][17][1]=15;map[0][18][1]=15;map[0][19][1]=15;
-    map[0][0][2]=5;map[0][1][2]=5;map[0][2][2]=5;map[0][3][2]=5;map[0][4][2]=5;map[0][5][2]=5;map[0][6][2]=5;map[0][7][2]=5;map[0][8][2]=11;map[0][9][2]=0;map[0][10][2]=0;map[0][11][2]=0;map[0][12][2]=0;map[0][13][2]=0;map[0][14][2]=0;map[0][15][2]=15;map[0][16][2]=15;map[0][17][2]=15;map[0][18][2]=15;map[0][19][2]=15;
+    map[0][0][1]=5;map[0][1][1]=5;map[0][2][1]=5;map[0][3][1]=5;map[0][4][1]=5;map[0][5][1]=5;map[0][6][1]=5;map[0][7][1]=5;map[0][8][1]=11;map[0][9][1]=11;map[0][10][1]=0;map[0][11][1]=0;map[0][12][1]=0;map[0][13][1]=0;map[0][14][1]=0;map[0][15][1]=15;map[0][16][1]=15;map[0][17][1]=15;map[0][18][1]=15;map[0][19][1]=15;
+    map[0][0][2]=5;map[0][1][2]=5;map[0][2][2]=5;map[0][3][2]=5;map[0][4][2]=5;map[0][5][2]=5;map[0][6][2]=5;map[0][7][2]=5;map[0][8][2]=11;map[0][9][2]=11;map[0][10][2]=0;map[0][11][2]=0;map[0][12][2]=0;map[0][13][2]=0;map[0][14][2]=0;map[0][15][2]=15;map[0][16][2]=15;map[0][17][2]=15;map[0][18][2]=15;map[0][19][2]=15;
     map[0][0][3]=5;map[0][1][3]=5;map[0][2][3]=5;map[0][3][3]=5;map[0][4][3]=5;map[0][5][3]=5;map[0][6][3]=5;map[0][7][3]=5;map[0][8][3]=0;map[0][9][3]=0;map[0][10][3]=0;map[0][11][3]=0;map[0][12][3]=0;map[0][13][3]=0;map[0][14][3]=0;map[0][15][3]=0;map[0][16][3]=0;map[0][17][3]=0;map[0][18][3]=0;map[0][19][3]=1;
-    map[0][0][4]=5;map[0][1][4]=5;map[0][2][4]=5;map[0][3][4]=5;map[0][4][4]=5;map[0][5][4]=5;map[0][6][4]=5;map[0][7][4]=5;map[0][8][4]=12;map[0][9][4]=0;map[0][10][4]=0;map[0][11][4]=0;map[0][12][4]=0;map[0][13][4]=0;map[0][14][4]=0;map[0][15][4]=0;map[0][16][4]=0;map[0][17][4]=0;map[0][18][4]=0;map[0][19][4]=1;
-    map[0][0][5]=5;map[0][1][5]=5;map[0][2][5]=5;map[0][3][5]=5;map[0][4][5]=5;map[0][5][5]=5;map[0][6][5]=5;map[0][7][5]=5;map[0][8][5]=12;map[0][9][5]=0;map[0][10][5]=0;map[0][11][5]=0;map[0][12][5]=0;map[0][13][5]=0;map[0][14][5]=0;map[0][15][5]=16;map[0][16][5]=16;map[0][17][5]=16;map[0][18][5]=16;map[0][19][5]=16;
+    map[0][0][4]=5;map[0][1][4]=5;map[0][2][4]=5;map[0][3][4]=5;map[0][4][4]=5;map[0][5][4]=5;map[0][6][4]=5;map[0][7][4]=5;map[0][8][4]=12;map[0][9][4]=12;map[0][10][4]=0;map[0][11][4]=0;map[0][12][4]=0;map[0][13][4]=0;map[0][14][4]=0;map[0][15][4]=0;map[0][16][4]=0;map[0][17][4]=0;map[0][18][4]=0;map[0][19][4]=1;
+    map[0][0][5]=5;map[0][1][5]=5;map[0][2][5]=5;map[0][3][5]=5;map[0][4][5]=5;map[0][5][5]=5;map[0][6][5]=5;map[0][7][5]=5;map[0][8][5]=12;map[0][9][5]=12;map[0][10][5]=0;map[0][11][5]=0;map[0][12][5]=0;map[0][13][5]=0;map[0][14][5]=0;map[0][15][5]=16;map[0][16][5]=16;map[0][17][5]=16;map[0][18][5]=16;map[0][19][5]=16;
     map[0][0][6]=5;map[0][1][6]=5;map[0][2][6]=5;map[0][3][6]=5;map[0][4][6]=5;map[0][5][6]=5;map[0][6][6]=5;map[0][7][6]=5;map[0][8][6]=0;map[0][9][6]=0;map[0][10][6]=0;map[0][11][6]=0;map[0][12][6]=0;map[0][13][6]=0;map[0][14][6]=0;map[0][15][6]=16;map[0][16][6]=16;map[0][17][6]=16;map[0][18][6]=16;map[0][19][6]=16;
-    map[0][0][7]=5;map[0][1][7]=5;map[0][2][7]=5;map[0][3][7]=5;map[0][4][7]=5;map[0][5][7]=5;map[0][6][7]=5;map[0][7][7]=5;map[0][8][7]=13;map[0][9][7]=0;map[0][10][7]=0;map[0][11][7]=0;map[0][12][7]=0;map[0][13][7]=0;map[0][14][7]=0;map[0][15][7]=16;map[0][16][7]=16;map[0][17][7]=16;map[0][18][7]=16;map[0][19][7]=16;
-    map[0][0][8]=5;map[0][1][8]=5;map[0][2][8]=5;map[0][3][8]=5;map[0][4][8]=5;map[0][5][8]=5;map[0][6][8]=5;map[0][7][8]=5;map[0][8][8]=13;map[0][9][8]=0;map[0][10][8]=0;map[0][11][8]=0;map[0][12][8]=0;map[0][13][8]=0;map[0][14][8]=0;map[0][15][8]=0;map[0][16][8]=0;map[0][17][8]=0;map[0][18][8]=0;map[0][19][8]=0;
+    map[0][0][7]=5;map[0][1][7]=5;map[0][2][7]=5;map[0][3][7]=5;map[0][4][7]=5;map[0][5][7]=5;map[0][6][7]=5;map[0][7][7]=5;map[0][8][7]=13;map[0][9][7]=13;map[0][10][7]=0;map[0][11][7]=0;map[0][12][7]=0;map[0][13][7]=0;map[0][14][7]=0;map[0][15][7]=16;map[0][16][7]=16;map[0][17][7]=16;map[0][18][7]=16;map[0][19][7]=16;
+    map[0][0][8]=5;map[0][1][8]=5;map[0][2][8]=5;map[0][3][8]=5;map[0][4][8]=5;map[0][5][8]=5;map[0][6][8]=5;map[0][7][8]=5;map[0][8][8]=13;map[0][9][8]=13;map[0][10][8]=0;map[0][11][8]=0;map[0][12][8]=0;map[0][13][8]=0;map[0][14][8]=0;map[0][15][8]=0;map[0][16][8]=0;map[0][17][8]=0;map[0][18][8]=0;map[0][19][8]=0;
     map[0][0][9]=5;map[0][1][9]=5;map[0][2][9]=5;map[0][3][9]=5;map[0][4][9]=5;map[0][5][9]=5;map[0][6][9]=5;map[0][7][9]=5;map[0][8][9]=0;map[0][9][9]=0;map[0][10][9]=0;map[0][11][9]=0;map[0][12][9]=0;map[0][13][9]=0;map[0][14][9]=0;map[0][15][9]=0;map[0][16][9]=0;map[0][17][9]=17;map[0][18][9]=17;map[0][19][9]=0;
-    map[0][0][10]=5;map[0][1][10]=5;map[0][2][10]=5;map[0][3][10]=5;map[0][4][10]=5;map[0][5][10]=5;map[0][6][10]=5;map[0][7][10]=5;map[0][8][10]=14;map[0][9][10]=0;map[0][10][10]=0;map[0][11][10]=0;map[0][12][10]=0;map[0][13][10]=0;map[0][14][10]=0;map[0][15][10]=0;map[0][16][10]=0;map[0][17][10]=0;map[0][18][10]=0;map[0][19][10]=0;
-    map[0][0][11]=5;map[0][1][11]=5;map[0][2][11]=5;map[0][3][11]=5;map[0][4][11]=5;map[0][5][11]=5;map[0][6][11]=5;map[0][7][11]=5;map[0][8][11]=14;map[0][9][11]=0;map[0][10][11]=0;map[0][11][11]=0;map[0][12][11]=0;map[0][13][11]=0;map[0][14][11]=0;map[0][15][11]=2;map[0][16][11]=2;map[0][17][11]=0;map[0][18][11]=0;map[0][19][11]=0;
+    map[0][0][10]=5;map[0][1][10]=5;map[0][2][10]=5;map[0][3][10]=5;map[0][4][10]=5;map[0][5][10]=5;map[0][6][10]=5;map[0][7][10]=5;map[0][8][10]=14;map[0][9][10]=14;map[0][10][10]=0;map[0][11][10]=0;map[0][12][10]=0;map[0][13][10]=0;map[0][14][10]=0;map[0][15][10]=0;map[0][16][10]=0;map[0][17][10]=0;map[0][18][10]=0;map[0][19][10]=0;
+    map[0][0][11]=5;map[0][1][11]=5;map[0][2][11]=5;map[0][3][11]=5;map[0][4][11]=5;map[0][5][11]=5;map[0][6][11]=5;map[0][7][11]=5;map[0][8][11]=14;map[0][9][11]=14;map[0][10][11]=0;map[0][11][11]=0;map[0][12][11]=0;map[0][13][11]=0;map[0][14][11]=0;map[0][15][11]=2;map[0][16][11]=2;map[0][17][11]=0;map[0][18][11]=0;map[0][19][11]=0;
     //block 2 (finished)
     map[1][0][0]=21;map[1][1][0]=21;map[1][2][0]=21;map[1][3][0]=21;map[1][4][0]=23;map[1][5][0]=23;map[1][6][0]=23;map[1][7][0]=23;map[1][8][0]=24;map[1][9][0]=24;map[1][10][0]=24;map[1][11][0]=24;map[1][12][0]=26;map[1][13][0]=26;map[1][14][0]=26;map[1][15][0]=26;map[1][16][0]=6;map[1][17][0]=6;map[1][18][0]=6;map[1][19][0]=6;
     map[1][0][1]=21;map[1][1][1]=21;map[1][2][1]=21;map[1][3][1]=21;map[1][4][1]=23;map[1][5][1]=23;map[1][6][1]=23;map[1][7][1]=23;map[1][8][1]=24;map[1][9][1]=24;map[1][10][1]=24;map[1][11][1]=24;map[1][12][1]=26;map[1][13][1]=26;map[1][14][1]=26;map[1][15][1]=26;map[1][16][1]=6;map[1][17][1]=6;map[1][18][1]=6;map[1][19][1]=6;
@@ -210,12 +210,19 @@ void MainWindow::setLabels()
 
     ui->water->hide();
     ui->waterText->hide();
+    ui->_6Building->hide();
     ui->_11Building->hide();
     ui->_12Building->hide();
     ui->_13Building->hide();
     ui->_14Building->hide();
     ui->_15Building->hide();
     ui->_16Building->hide();
+    ui->_21Building->hide();
+    ui->_22Building->hide();
+    ui->_23Building->hide();
+    ui->_24Building->hide();
+    ui->_25Building->hide();
+    ui->_26Building->hide();
 
 }
 
@@ -229,22 +236,26 @@ int MainWindow::matchInteraction()
     case 1:
         player_x -= 19;
         ui->label->move(player_x*UNITLENGTH,player_y*UNITLENGTH);
+        hideBlockLabels(block);
         block += 1;
         break;
 //        Interaction.setBlockLabels(ui);
     case 2:
         player_y -= 11;
         ui->label->move(player_x*UNITLENGTH,player_y*UNITLENGTH);
+        hideBlockLabels(block);
         block += 4;
         break;
     case 3:
         player_x += 19;
         ui->label->move(player_x*UNITLENGTH,player_y*UNITLENGTH);
+        hideBlockLabels(block);
         block -= 1;
         break;
     case 4:
         player_y += 11;
         ui->label->move(player_x*UNITLENGTH,player_y*UNITLENGTH);
+        hideBlockLabels(block);
         block -= 4;
         break;
     }
@@ -284,7 +295,57 @@ void MainWindow::setBlockLabels()
         ui->_16Building->show();
         ui->gate1->resize(UNITLENGTH*1,UNITLENGTH*2);
         ui->gate1->move(UNITLENGTH*19,UNITLENGTH*3);
-        ui->gate1->show();
+        ui->gate1->show();break;
+    case 1:
+        ui->_21Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_21Building->move(UNITLENGTH*0,UNITLENGTH*0);
+        ui->_21Building->show();
+        ui->_22Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_22Building->move(UNITLENGTH*0,UNITLENGTH*5);
+        ui->_22Building->show();
+        ui->_23Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_23Building->move(UNITLENGTH*4,UNITLENGTH*0);
+        ui->_23Building->show();
+        ui->_24Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_24Building->move(UNITLENGTH*8,UNITLENGTH*0);
+        ui->_24Building->show();
+        ui->_25Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_25Building->move(UNITLENGTH*8,UNITLENGTH*5);
+        ui->_25Building->show();
+        ui->_26Building->resize(UNITLENGTH*4,UNITLENGTH*3);
+        ui->_26Building->move(UNITLENGTH*12,UNITLENGTH*0);
+        ui->_26Building->show();
+        ui->_6Building->resize(UNITLENGTH*4,UNITLENGTH*8);
+        ui->_6Building->move(UNITLENGTH*16,UNITLENGTH*0);
+        ui->_6Building->show();
+        ui->gate3->resize(UNITLENGTH*1,UNITLENGTH*2);
+        ui->gate3->move(UNITLENGTH*0,UNITLENGTH*3);
+        ui->gate3->show();
+    }
+}
+
+void MainWindow::hideBlockLabels(int block)
+{
+    switch(block){
+    case 0:
+        ui->water->hide();
+        ui->waterText->hide();
+        ui->_11Building->hide();
+        ui->_12Building->hide();
+        ui->_13Building->hide();
+        ui->_14Building->hide();
+        ui->_15Building->hide();
+        ui->_16Building->hide();
+        ui->gate1->hide();
+    case 1:
+        ui->_6Building->hide();
+        ui->_21Building->hide();
+        ui->_22Building->hide();
+        ui->_23Building->hide();
+        ui->_24Building->hide();
+        ui->_25Building->hide();
+        ui->_26Building->hide();
+        ui->gate3->hide();
     }
 }
 
