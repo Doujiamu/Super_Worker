@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    this->resize(1000,650);
+    this->setFixedSize(1000,650);
     this->setWindowTitle("Super_worker_CHS开发版");
 
 
@@ -223,6 +223,18 @@ void MainWindow::setLabels()
     ui->_24Building->hide();
     ui->_25Building->hide();
     ui->_26Building->hide();
+    ui->_33Building->hide();
+    ui->_41Building->hide();
+    ui->_51Building->hide();
+    ui->_52Building->hide();
+    ui->_53Building->hide();
+    ui->_54Building->hide();
+    ui->_61Building->hide();
+    ui->_62Building->hide();
+    ui->_63Building->hide();
+    ui->_71Building->hide();
+    ui->_72Building->hide();
+    ui->_73Building->hide();
 
     ui->bigMap->resize(800,360);
     ui->bigMap->move(-50,145);
@@ -334,6 +346,9 @@ void MainWindow::setBlockLabels()
         ui->gate3->show();
         break;
     case 2: //block 3
+        ui->_33Building->resize(UNITLENGTH*9,UNITLENGTH*7);
+        ui->_33Building->move(UNITLENGTH*11,UNITLENGTH*0);
+        ui->_33Building->show();
         ui->gate1->resize(UNITLENGTH*1,UNITLENGTH*1);
         ui->gate1->move(UNITLENGTH*19,UNITLENGTH*8);
         ui->gate1->show();
@@ -345,6 +360,9 @@ void MainWindow::setBlockLabels()
         ui->gate3->show();
         break;
     case 3: //block 4
+        ui->_41Building->resize(UNITLENGTH*13,UNITLENGTH*7);
+        ui->_41Building->move(UNITLENGTH*7,UNITLENGTH*0);
+        ui->_41Building->show();
         ui->gate2->resize(UNITLENGTH*2,UNITLENGTH*1);
         ui->gate2->move(UNITLENGTH*9,UNITLENGTH*11);
         ui->gate2->show();
@@ -353,6 +371,18 @@ void MainWindow::setBlockLabels()
         ui->gate3->show();
         break;
     case 4: //block 5
+        ui->_51Building->resize(UNITLENGTH*2,UNITLENGTH*2);
+        ui->_51Building->move(UNITLENGTH*7,UNITLENGTH*1);
+        ui->_51Building->show();
+        ui->_52Building->resize(UNITLENGTH*2,UNITLENGTH*2);
+        ui->_52Building->move(UNITLENGTH*7,UNITLENGTH*4);
+        ui->_52Building->show();
+        ui->_53Building->resize(UNITLENGTH*2,UNITLENGTH*2);
+        ui->_53Building->move(UNITLENGTH*7,UNITLENGTH*7);
+        ui->_53Building->show();
+        ui->_54Building->resize(UNITLENGTH*5,UNITLENGTH*5);
+        ui->_54Building->move(UNITLENGTH*15,UNITLENGTH*4);
+        ui->_54Building->show();
         ui->gate1->resize(UNITLENGTH*1,UNITLENGTH*2);
         ui->gate1->move(UNITLENGTH*19,UNITLENGTH*2);
         ui->gate1->show();
@@ -364,6 +394,15 @@ void MainWindow::setBlockLabels()
         ui->gate4->show();
         break;
     case 5: //block 6
+        ui->_61Building->resize(UNITLENGTH*4,UNITLENGTH*5);
+        ui->_61Building->move(UNITLENGTH*0,UNITLENGTH*4);
+        ui->_61Building->show();
+        ui->_62Building->resize(UNITLENGTH*5,UNITLENGTH*5);
+        ui->_62Building->move(UNITLENGTH*4,UNITLENGTH*4);
+        ui->_62Building->show();
+        ui->_63Building->resize(UNITLENGTH*5,UNITLENGTH*5);
+        ui->_63Building->move(UNITLENGTH*9,UNITLENGTH*4);
+        ui->_63Building->show();
         ui->gate1->resize(UNITLENGTH*1,UNITLENGTH*2);
         ui->gate1->move(UNITLENGTH*19,UNITLENGTH*0);
         ui->gate1->show();
@@ -378,6 +417,15 @@ void MainWindow::setBlockLabels()
         ui->gate4->show();
         break;
     case 6: //block 7
+        ui->_71Building->resize(UNITLENGTH*2,UNITLENGTH*5);
+        ui->_71Building->move(UNITLENGTH*0,UNITLENGTH*2);
+        ui->_71Building->show();
+        ui->_72Building->resize(UNITLENGTH*2,UNITLENGTH*3);
+        ui->_72Building->move(UNITLENGTH*0,UNITLENGTH*7);
+        ui->_72Building->show();
+        ui->_73Building->resize(UNITLENGTH*14,UNITLENGTH*6);
+        ui->_73Building->move(UNITLENGTH*7,UNITLENGTH*0);
+        ui->_73Building->show();
         ui->gate1->resize(UNITLENGTH*1,UNITLENGTH*2);
         ui->gate1->move(UNITLENGTH*19,UNITLENGTH*10);
         ui->gate1->show();
@@ -472,26 +520,38 @@ void MainWindow::hideBlockLabels(int block)
         ui->gate3->hide();
         break;
     case 2: //block 3
+        ui->_33Building->hide();
         ui->gate1->hide();
         ui->gate2->hide();
         ui->gate3->hide();
         break;
     case 3: //block 4
+        ui->_41Building->hide();
         ui->gate2->hide();
         ui->gate3->hide();
         break;
     case 4: //block 5
+        ui->_51Building->hide();
+        ui->_52Building->hide();
+        ui->_53Building->hide();
+        ui->_54Building->hide();
         ui->gate1->hide();
         ui->gate2->hide();
         ui->gate4->hide();
         break;
     case 5: //block 6
+        ui->_61Building->hide();
+        ui->_62Building->hide();
+        ui->_63Building->hide();
         ui->gate1->hide();
         ui->gate2->hide();
         ui->gate3->hide();
         ui->gate4->hide();
         break;
     case 6: //block 7
+        ui->_71Building->hide();
+        ui->_72Building->hide();
+        ui->_73Building->hide();
         ui->gate1->hide();
         ui->gate2->hide();
         ui->gate3->hide();
